@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(135deg, #667eea, #1e293b, #334155); */
+  background: linear-gradient(135deg, #0f172a, #1e29);
+  box-sizing:border-box;
+
+}
+
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+
+}
+
+.cantainers{
+text-align: center;
+cursor: grab;
+background: white;
+/* border-radius: 20px;
+box-shadow: 0 10px 30px rgba(0,0,0,0,3); */
+
+}
+
+
+ button{
+  padding: 9px 20px ;
+  font-size: 15px ;
+  /* margin: 20px , 0 ; */
+  cursor: pointer;
+  margin-bottom: 15px;
+} 
+
+ #password {
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px , solid black;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+
+h1{
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  font-style: italic;
+  /* color: red; */
+}
+
+
+
+
+
+
+
+
